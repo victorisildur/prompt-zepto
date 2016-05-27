@@ -1,0 +1,31 @@
+{
+  "name": "prompt-zepto",
+  "version": "1.0.0",
+  "description": "mobile prompt replacing window.prompt(), mocking iOS prompt UI, supporting custom message and positive button text",
+  "main": "dist/prompt.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/victorisildur/prompt-zepto.git"
+  },
+  "keywords": [
+    "prompt",
+    "zepto"
+  ],
+  "author": "victorisildur",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/victorisildur/prompt-zepto/issues"
+  },
+  "homepage": "https://github.com/victorisildur/prompt-zepto#readme",
+  "devDependencies": {
+    "css-loader": "^0.23.1",
+    "html-loader": "^0.4.3",
+    "less": "^2.7.1",
+    "less-loader": "^2.2.3",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.1"
+  }
+}

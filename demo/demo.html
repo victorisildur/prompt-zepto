@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width,initial-scale=1.0, maximum-scale = 1.0,user-scalable=no" />
+	    <meta name="format-detection" content="telephone=no" />
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	    <meta name="apple-mobile-web-app-capable" content="yes" />
+	    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+        <title>mobile-alert</title>
+        <style>
+         html {
+             width: 100%;
+             height: 100%;
+             font-family: "Helvetica Neue",Helvetica,STHeiTi;
+         }
+         body {
+             width: 100%;
+             height: 100%;
+             position: relative;
+             margin: 0;
+         }
+        </style>
+    </head>
+    <body>
+        <button id="btn">trigger alert</button>
+        <button id="btn2">trigger alert2</button>
+        <script src="../js/zepto.js"></script>
+        <script src="../dist/prompt.js"></script>
+        <script>
+         $('#btn').on('click', function() {
+             prompt({
+                 title: '你要什么',
+                 placeholder: '薯条',
+                 callback: function(text) {
+                     console.debug(text);
+                 }
+             });
+         });
+         $('#btn2').on('click', function() {
+             prompt({
+                 title: '你想干嘛',
+                 placeholder: '吃饭',
+                 callback: function(text) {
+                     console.debug(text);
+                 }
+             });
+         });
+        </script>
+    </body>
+</html>
