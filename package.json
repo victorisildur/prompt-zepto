@@ -1,6 +1,6 @@
 {
   "name": "prompt-zepto",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "mobile prompt replacing window.prompt(), mocking iOS prompt UI, supporting custom message and positive button text",
   "main": "dist/prompt.js",
   "scripts": {
